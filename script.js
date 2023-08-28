@@ -12,7 +12,10 @@ async function startXR() {
       const materials = [
             new THREE.MeshBasicMaterial({ color: 0xff0000 }),
             new THREE.MeshBasicMaterial({ color: 0x0000ff }),
-            new THREE.MeshBasicMaterial({ color: 0x0000ff })
+            new THREE.MeshBasicMaterial({ color: 0x00f0f0 }),
+            new THREE.MeshBasicMaterial({ color: 0x00f0ff }),
+            new THREE.MeshBasicMaterial({ color: 0x00f00f }),
+            new THREE.MeshBasicMaterial({ color: 0x00ff00 })
             // ...
       ]
 
